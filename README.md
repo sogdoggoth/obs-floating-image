@@ -33,25 +33,9 @@ Axis Offset:
     This adjusts where in the OBS browser source the image will orbit around.
     Positive numbers move it Up and Left, negative numbers move it Down and Right.
 
-Here's two sets of values to get your started:
-    Clockwise circle:
-        vertical:{
-            frequency:1,
-            distance:1,
-            timing_offset:1,
-            axis_offset:0,
-        },
-        horizontal:{
-            frequency: 1,
-            distance: 1,
-            timing_offset:0,
-            axis_offset:0
-        },
-        image:{
-            location: './circle.png'
-        }
-    
-    Infinite / Figure 8 (change the timing offset and frequency):
+Default Values to get you started:
+
+    Infinite / Figure 8:
          vertical:{
             frequency:2,
             distance:1,
@@ -67,3 +51,4 @@ Here's two sets of values to get your started:
         image:{
             location: './circle.png'
         }
+     ```
